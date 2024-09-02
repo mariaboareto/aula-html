@@ -1,2 +1,5 @@
-# aula-html
-Neste repositório iremos subir todos os arquivos que vamos desenvolver durante a aula.
+# Este repositório será referencia para o tema:
+## Estrutura de Página Web
+
+## Com os seguintes topicos:
+- Introdução da Estrutura
