@@ -28,5 +28,26 @@
             <li><strong>Instagram:</strong> @criacaopaginaweb</li>
         </ul>
 
+        <h1>Formulário</h1>
+        <form action="/enviarContato" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome ex: Maria da Silva" id="nome" required>
+            <br><br>
+
+            <label for="E-mail">E-mail</label>
+            <input type="text" name="Email" placeholder="Digite seu email ex: abc@gmail" id="email" required>
+
+            <label for="idade">idade</label>
+            <input type="number" name="idade" placeholder="Digite sua idade" id="idade" min="0" max="110" required>
+            <br><br>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" max="400" col="40" rows="4" placeholder="Digite o que deseja" required></textarea><br><br>
+
+            <button type="submit">Enviar</button> 
+        </form>
+
+
+
     </body>
 </html>
